@@ -1,0 +1,182 @@
+
+
+body{
+    background-color: lightblue;
+}
+
+
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 100px 0;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding: -32px;
+}
+
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+
+h2{
+    text-align: center;
+    
+}
+
+h3{
+  text-align: center;
+}
+
+.move{
+    text-align: center;
+    margin: 10px 20px;
+    margin: 10px 103px;
+}
+
+
+.ship{
+    text-align: center;
+    margin: 0px 0px;
+    
+    padding-right: 130px;
+}
+
+p{
+    text-align: center;
+    margin: 10px 90px;
+}
+
+.pad{
+    text-align: center;
+    margin: 10px 90px;
+    
+}
+
+.logo-container {
+    position: absolute;
+    top: 20px; /* Adjust the value as needed */
+    left: 20px; /* Adjust the value as needed */
+  }
+  
+
+  .logo-container img {
+    width: 200px;
+    height: 65px;
+    margin: 10px 103px;
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Adjust the height if needed */
+  }
+  
+  .image-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-wrapper img {
+    margin-right: 15px; /* Adjust the spacing as needed */
+    background: transparent;
+    margin: 10px 33px;
+  }
+  
+
+
+  .email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  #email-input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Adjust as needed */
+    }
+    
+    video {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    
+    .box-container {
+     
+      display: flex;
+      justify-content: space-between;
+      width: 100%; /* Set the width to 100% to occupy the full width of the container */
+  }
+
+
+.box{
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  flex-basis: calc(33.33% - 20px); /* Divide the available space equally among the three boxes */
+}
+
+
+  .box button {
+    margin-top: 20px;
+    background-color: yellow; /* Change the background color to your desired color */
+    color: black; /* Change the text color to ensure it's readable */
+    padding: 10px 20px; /* Optional: Add padding to the button */
+}
+
+@media (max-width: 768px) {
+  .box-container {
+      flex-wrap: wrap; /* Allow the boxes to wrap to the next line */
+  }
+
+  .box {
+    flex-basis: 100%; /* Make each box take up the full width when wrapping */
+    margin-bottom: 20px; /* Add spacing between the stacked boxes */
+}
+}
+
+.privacy-container{
+  border: 5px solid black;
+  padding: 20px;
+  background-color: grey;
+}
+
+h5{
+  text-align: right;
+  font-size: 24px;
+}
+
+.right{
+
+  margin-right: -0px;
+  text-align: right;
+}
